@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_feedbacks",
+  "info": {
+    "singularName": "article-feedback",
+    "pluralName": "article-feedbacks",
+    "displayName": "Article Feedback",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "qualifications": {
+      "type": "string"
+    },
+    "countries": {
+      "type": "string"
+    },
+    "otherQualifications": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "jurisdictions": {
+      "type": "string"
+    },
+    "legallyEnforceable": {
+      "type": "boolean"
+    },
+    "law": {
+      "type": "enumeration",
+      "enum": [
+        "Common Law",
+        "Civil Law",
+        "Not Applicable"
+      ]
+    },
+    "rulings": {
+      "type": "text"
+    },
+    "impactOfDecision": {
+      "type": "text"
+    },
+    "authorQualification": {
+      "type": "enumeration",
+      "enum": [
+        "Very Qualified",
+        "Moderately Qualified",
+        "Not Qualified"
+      ]
+    },
+    "authorQualifications": {
+      "type": "text"
+    },
+    "ratings": {
+      "type": "json"
+    },
+    "weakArguments": {
+      "type": "text"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "numPages": {
+      "type": "enumeration",
+      "enum": [
+        "five",
+        "twenty",
+        "fifty",
+        "hundred",
+        "hundred plus"
+      ]
+    }
+  }
+}
